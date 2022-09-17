@@ -1,13 +1,11 @@
 import ij.plugin.PlugIn;
 import ij.ImagePlus;
-import ij.gui.DialogListener;
 import ij.gui.GenericDialog;
 
-import java.awt.AWTEvent;
 import ij.IJ;
 import ij.process.ImageProcessor;
 
-public class PluginSpecialFilters_ implements PlugIn{	
+public class PluginSpacialFilters_ implements PlugIn{	
 	private GenericDialog gui;
 	private ImagePlus image;
 	private ImageProcessor processorManipulate, processorOriginal;	
